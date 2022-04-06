@@ -1,0 +1,432 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    background-color: rgba(7, 7, 7, 0.336);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    position: fixed;
+    top:0;
+    z-index: 2;
+
+}
+.menu .trai{}
+.menu .trai img{
+    width: 200px;
+    line-height: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+.menu .phai{ 
+}
+.menu .phai ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu .phai ul li {
+transition: 0.4s;
+  margin: 0 8px;
+}
+.menu .phai ul li:hover {
+    border-top: 3px rgb(255, 111, 0) solid;
+  margin: 0 8px;
+}
+.menu .phai ul li p{
+    line-height: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu .phai ul li i{
+ font-size: 40px;
+ line-height: 100px;
+ color: rgb(255, 111, 0);
+ padding: 0 5px;
+}
+.menu .phai ul .tx p{
+height: 10px;
+}
+.menu .phai ul .tx p:first-child{
+font-size: 13px;
+color: rgb(255, 111, 0);
+}
+.menu .phai ul .tx p:last-child{
+font-size: 20px;
+}
+.menu .phai ul li:last-child{
+margin-top: -10px;
+padding-right: 50px;
+}
+.slide{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+ 
+}
+.den{
+    background-image: linear-gradient(0 , rgba(255, 255, 255, 0.247),rgba(0, 0, 0, 0.692));
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.slide img{
+    width: 100%;
+    position: relative;
+    top: -150px;
+ 
+}
+.carousel-caption{
+position: absolute;
+top: 200px;
+z-index: 2;
+}
+.nhande{}
+.nhande h3{
+    font-size: 15px;
+}
+.nhande h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.nhande .nut{
+    display: flex;
+    width: 600px;
+}
+.nhande .nut1:hover{
+    background-color: rgb(255, 111, 0);
+    border: 1px rgb(255, 111, 0) solid;
+}
+.nhande .nut1{
+    width: 190px;height: 48px;
+    line-height: 48px;
+   border: 1px rgb(255, 255, 255) solid;
+    text-align: center;
+    border-radius: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.nhande .nut2:hover{
+    background-color: rgb(245, 245, 245);
+
+    color: rgb(255, 111, 0);
+}
+.nhande .nut2{
+    width: 210px;height: 48px;
+    line-height: 48px;
+   /* border: 1px rgb(255, 255, 255) solid; */
+    text-align: center;
+    border-radius: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgb(255, 111, 0);
+    margin-left: 10px;
+    transition: 0.4s;
+}
+.khung{
+    position: ;
+}
+
+
+.carousel-caption span{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 5px 20px 5px;
+}
+.khung{
+    width: 150px;
+    height: 340px;
+    border-left: 5px solid rgb(255, 111, 0);
+    border-top: 5px solid rgb(255, 111, 0);
+    border-bottom: 5px solid rgb(255, 111, 0);
+    position: absolute;
+    top: -20px;
+    left: -50px;}
+.khung2{
+    width: 150px;
+    height: 340px;
+    border-right: 5px solid rgb(255, 111, 0);
+    border-top: 5px solid rgb(255, 111, 0);
+    border-bottom: 5px solid rgb(255, 111, 0);
+    position: absolute;
+    top: -20px;
+    right: -50px;}
+.grid{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ct1{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.ct1 .trai{
+  
+}
+.ct1 .phai{
+    margin-left: 50px;
+}
+.ct1 .phai h5{
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(255, 111, 0);
+}
+.ct1 .phai h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.ct1 .phai p{
+    color: gray;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.ct1 .phai .con{
+    display: flex;
+   
+}
+.ct1 .phai .con .con1{
+    display: flex;
+}
+.ct1 .phai .con .con1 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+.ct1 .phai .con .con1 h4{
+  margin: 0;
+  font-size: 20px;
+}
+.ct1 .phai .con .con1 p{
+  margin: 0;
+}
+
+.phantram{
+    margin-top: 25px;
+    border-bottom: 1px rgb(199, 195, 195) solid;
+    padding-bottom: 5px;
+}
+.phantram .text{
+    display: flex;
+    
+}
+.phantram .text p{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.phantram .muc{
+    height: 5px;
+    background-color: rgb(255, 111, 0);
+    border-radius: 5px;
+}
+.phantram .muc1{
+width: 500px;
+}
+.phantram .muc2{
+width: 360px;
+}
+.phantram .muc3{
+width: 600px;
+}
+
+.ct2{}
+.ct2 .td1{
+    display: flex;
+}
+.ct2 .trai{
+    width: 45%;
+    border-right: 1px rgb(202, 196, 196) solid;
+}
+.ct2 .trai h5{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 111, 0);
+}
+.ct2 .trai h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.ct2 .phai{
+    width: 55%;
+
+}
+.ct2 .phai p{
+    color: gray;
+    font-size: 15px;
+    margin-top: 25px;
+    padding-left: 70px;
+}
+.nd1{
+    padding-top: 90px;
+    background-color: rgb(248, 248, 248);
+}
+.khoi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin-top: 30px;
+   padding-bottom: 100px;
+}
+.khoi .khoi1{
+    width: 297px;
+    height: 290px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+}
+.khoi .khoi1 img{
+    margin-left: 30px;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+.khoi .khoi1:hover img{
+  transform: rotateY(180deg);
+}
+.khoi .khoi1 h4{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.khoi .khoi1 p{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 250px;
+    color: gray;
+}
+.khac{
+    position: relative;
+}
+
+.khac:hover img{
+    transform: none!important;
+}
+.khac img{
+    width: 600px;
+    position: absolute;
+    left:-334px;
+   top:-30px
+}
+.nd2{
+    position: relative;
+}
+.nd2 .trai{
+    display: flex;
+    width: 45%;
+    margin-top: 70px;
+}
+.nd2 .trai .icon{
+    width: 27%;
+}
+.nd2 .trai .icon i{
+    color: rgb(255, 111, 0);
+}
+.nd2 .trai .chu{
+    padding-left: 8px;
+    display: inline!important;
+}
+.nd2 .trai .chu a{
+    color: rgb(255, 111, 0);
+    font-weight: bold; 
+}
+.nd2 .phai{}
+.nd2 .phai .nut3{
+    position: absolute;
+    right: 130px;
+    top: 20px;
+    height: 40px;
+    width: 450px;
+    background-color: rgb(255, 111, 0);
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 15px;
+}
+.nd2 .phai .nut3:hover{
+    background-color: rgb(27, 27, 26);
+}
+.nd3{
+    margin-top: 150px;
+}
+.nd3{
+    text-align: center;
+}
+.nd3 h5{
+    font-size: 16px;
+    color: rgb(255, 111, 0);
+    font-weight: 700;
+}
+.nd3 h3{
+    width: 800px;
+    font-size: 40px;
+    margin: auto;
+    font-weight: bold;
+}
+.auth{
+    display: flex;
+    margin-top: 150px;
+}
+.motkhoi{
+    position: relative;
+ border-top: 5px solid rgb(235, 235, 235);
+    width: 400px;
+    background-color: rgb(245, 244, 244);
+}
+.motkhoi img{
+    border-radius: 50%;
+    width: 120px;
+    margin-top: -60px;
+}
+.motkhoi h4{
+    padding-top: 50px;
+    width: 300px;
+    margin: auto;
+    z-index: 2;
+}
+.motkhoi p{
+    padding-top: 20px;
+    width: 350px;
+    margin: auto;
+    color: gray;
+    z-index: 2;
+}
+.motkhoi .read{
+    color: rgb(255, 111, 0);
+    font-weight: bold;
+    padding: 20px 0 35px 0;
+    transform: 0.4s;
+    z-index: 2;
+}
+.motkhoi .read:hover{
+    color: rgb(37, 37, 37);
+
+}
+.layer1{
+    width: 400px;
+    position: absolute;
+    bottom:0px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    z-index: 1;
+    color: rgba(128, 128, 128, 0.178);
+    transition: 0.5s;
+}
+.layer1:hover{
+ transform: scale(0.8);
+}

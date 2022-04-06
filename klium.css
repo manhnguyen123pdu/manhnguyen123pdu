@@ -1,0 +1,96 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slide .tong{
+    width: 100%;
+    height: 100%;
+}
+.slide .tong .sl1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://thithptquocgia.org/wp-content/uploads/2021/06/bkhn-c1.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0;
+    opacity: 0;
+    transition: 1s;
+}
+.slide .tong .sl2{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://hanoispiritofplace.com/wp-content/uploads/2015/11/canh-dep-viet-nam-4.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0;
+    opacity: 0;
+    transition: 1s;
+}
+.slide .tong .sl3{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://pdp.edu.vn/wp-content/uploads/2020/12/hinh-anh-thien-nhien-dep.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0;
+    opacity: 0;
+    transition: 1s;
+}
+.slide .nut{
+    margin-left: 50%;
+    width: 300px;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+.slide .nut ul{
+    display: flex;
+    list-style: none;
+}
+.slide .nut ul li{
+    width: 20px;
+    height: 20px;
+    border: 1px gray solid;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+.slide .nut ul li:hover{
+background-color: gray;
+}
+.xam{
+    background-color: gray;
+}
+.text{
+    width: 600px;
+    margin: auto;
+    padding-top: 15%;
+}
+.text h1{
+    text-transform: uppercase;
+    color: rgb(34, 22, 22);
+}
+.text p{
+    font-size: 18px;
+    color: rgb(4, 4, 14);
+}
+.text .btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(80, 182, 39);
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.active{
+    opacity: 1!important;
+    z-index: 1;
+    transition: 1s;
+}
